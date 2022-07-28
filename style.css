@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* 
+#0692f0
+*/
+body {
+    background-color: #fdfeff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* 
+*************************************
+            NAV
+*************************************
+*/
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+
+    font-weight: lighter;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 1rem;
+    color: gray;
+}
+
+nav ul button {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #0692f0;
+    font-weight: 800;
+    color: #0692f0;
+}
+
+nav .active {
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+/* 
+**************************************
+            MAIN SECTION
+**************************************
+*/
+
+.main-section {
+    margin-top: 5rem;
+}
+
+.main-section .container {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-section .main-left {
+    width: 50%;
+}
+
+.main-section .main-right {
+    width: 50%;
+}
+
+.main-section img {
+    width: 80%;
+}
+
+.main-section h1 {
+    font-size: 3.5rem;
+    margin: 2rem auto;
+    font-weight: 900;
+}
+
+.main-section p {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 2rem auto;
+}
+
+.main-section button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    margin: 1rem auto;
+    background: rgb(6, 101, 236);
+    background: linear-gradient(7deg, rgba(6, 101, 236, 1) 0%, rgba(8, 189, 248, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.section-2 button,
+.section-3 button {
+    padding: 1rem 3rem;
+}
+
+
+/* 
+***********************************
+            SERVICES SECTION
+***********************************
+*/
+
+.services {
+    margin: 10rem auto;
+    color: gray;
+    font-weight: 400;
+}
+
+.services p {
+    line-height: 2rem;
+}
+
+.services .services-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-headline-right,
+.services-headline-left {
+    width: 50%;
+}
+
+.services-headline-left h1 {
+    color: #1d2b4e;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.services .services-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+}
+
+.services .services-items .item {
+    margin-top: 2rem;
+}
+
+.services .services-items img {
+    width: 50px;
+}
+
+.services .services-items h2 {
+    color: #1d2b4e;
+    font-weight: 900;
+    margin: 1rem auto;
+}
+
+.services .services-items .item {
+    padding: 1rem 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* 
+*******************************************
+        PRICING SECTION
+*******************************************
+*/
+
+.pricing-section {
+    background: rgb(6, 101, 236);
+    background: linear-gradient(22deg, rgba(6, 101, 236, 1) 0%, rgba(8, 189, 248, 1) 100%);
+
+    padding: 3rem;
+}
+
+.pricing-section h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.pricing-section .pricing-items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pricing-section .pricing-items .item {
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 350px;
+}
+
+.pricing-items p {
+    margin-top: 1rem;
+    color: gray;
+}
+
+.pricing-section .item .details {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+.pricing-section .item .details h5 {
+    margin: 1rem auto;
+    color: #1d2b4e;
+}
+
+.pricing-section .item .details i {
+    color: #06d7a0;
+    padding: .2rem;
+    font-weight: bolder;
+    border: 1px solid #06d7a0;
+    border-radius: 100%;
+    margin-right: .5rem;
+}
+
+.pricing-items .bottom {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.pricing-items .bottom h2 {
+    color: #1d2b4e;
+}
+
+.pricing-items .bottom h2 span {
+    color: gray;
+}
+
+.pricing-items .bottom p {
+    color: gray;
+    margin: 1rem auto;
+}
+
+.pricing-items .bottom button {
+    margin: 1rem auto;
+    border-radius: 8px;
+    border: 1px solid rgb(6, 101, 236);
+    padding: 1rem 3rem;
+    background-color: transparent;
+    color: #0692f0;
+    font-weight: bolder;
+}
+
+
+.pricing-items .heading {
+    padding: 2rem 2rem;
+}
+
+.pricing-items .heading-active {
+    color: white;
+    background-color: #353535;
+    border-radius: 0 0 10px 10px;
+}
+
+.pricing-items .heading-active p {
+    color: white;
+}
+
+.pricing-items button.button-active {
+    border: none;
+    background: rgb(6, 101, 236);
+    background: linear-gradient(7deg, rgba(6, 101, 236, 1) 0%, rgba(8, 189, 248, 1) 100%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+/* 
+*******************************************
+        custoemr love
+******************************************
+*/
+
+.customer-love {
+    margin: 10rem auto;
+}
+
+.customer-love .heading {
+    text-align: center;
+}
+
+.customer-love .heading p {
+    width: 50%;
+    margin: 2rem auto;
+    color: gray;
+    line-height: 2rem;
+}
+
+.customer-love h1 {
+    color: #1d2b4e;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.customer-love-items {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.customer-love-items .item {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 2rem;
+    background-color: white;
+}
+
+.customer-love-items .item p {
+    line-height: 2rem;
+    color: #1d2b4e;
+}
+
+.customer-love-items .item .bottom h4 {
+    color: #1d2b4e;
+    font-weight: 900;
+}
+
+.customer-love-items .item .bottom {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.customer-love-items .item .circle {
+    background-color: rgb(197, 197, 197);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+
+/* 
+********************************************
+        QUICK HIGHLIGHT
+********************************************
+*/
+
+.quick-highlight {
+    padding: 5rem 0;
+    color: white;
+    background: rgb(6, 101, 236);
+    background: linear-gradient(7deg, rgba(6, 101, 236, 1) 0%, rgba(8, 189, 248, 1) 100%);
+
+}
+
+.quick-highlight .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quick-highlight h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    line-height: 3.5rem;
+}
+
+.quick-highlight p {
+    width: 70%;
+    margin: 2rem 0;
+    line-height: 2rem;
+}
+
+.quick-highlight button {
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+}
+
+/* 
+*****************************************
+        footer
+*****************************************
+*/
+
+footer {
+    margin-top: 5rem;
+}
+
+footer .item img {
+
+    width: 100px;
+}
+
+footer .item {
+    width: 25%;
+}
+
+footer .container {
+    display: flex;
+    gap: 3rem;
+    color: gray;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+footer h2 {
+    margin-bottom: 2rem;
+    color: #1d2b4e;
+}
+
+footer ul li {
+    margin: 1rem auto;
+}
+
+footer .item .social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .item .social-links img {
+    width: 35px;
+}
+
+@media (max-width:700px) {
+
+    /* 
+**************************************
+            MAIN SECTION
+**************************************
+*/
+    .main-section .container {
+        margin-top: 10rem;
+    }
+
+    .main-section .section-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .main-section .section-2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main-section .section-3 {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .main-section .main-left {
+        width: 100%;
+    }
+
+    .main-section .main-right {
+        width: 100%;
+    }
+
+    .main-section img {
+        width: 80%;
+    }
+
+    .main-section h1 {
+        font-size: 2rem;
+    }
+
+    /* 
+***********************************
+            SERVICES SECTION
+***********************************
+*/
+    .services .services-headline {
+        display: block;
+    }
+
+    .services-headline-right,
+    .services-headline-left {
+        width: 100%;
+    }
+
+    .services-headline-left h1 {
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+
+    .services .services-items {
+        display: block;
+    }
+
+
+    /* 
+*******************************************
+        PRICING SECTION
+*******************************************
+*/
+    .pricing-section .pricing-items {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .pricing-section .pricing-items .item {
+        width: 100%;
+
+    }
+
+    /* 
+*******************************************
+        custoemr love
+******************************************
+*/
+    .customer-love .heading p {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .customer-love h1 {
+        color: #1d2b4e;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .customer-love-items {
+        margin-top: 4rem;
+        display: block;
+    }
+
+    .customer-love-items .item {
+        margin: 2rem auto;
+    }
+
+    /* 
+********************************************
+        QUICK HIGHLIGHT
+********************************************
+*/
+
+    .quick-highlight .container {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .quick-highlight h1 {
+        font-size: 2rem;
+        margin: 1rem 0;
+        line-height: 3rem;
+    }
+
+    .quick-highlight p {
+        width: 90%;
+        margin: 2rem 0;
+        line-height: 2rem;
+    }
+
+    /* 
+*****************************************
+        footer
+*****************************************
+*/
+    footer .item {
+        width: 100%;
+    }
+
+    footer .container {
+        display: block;
+        text-align: center;
+    }
+
+    footer h2 {
+        margin-top: 2rem;
+    }
+
+    footer .social-links {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -38,7 +38,10 @@ nav ul {
     display: flex;
     align-items: center;
 }
-
+nav ul .links{
+    display: flex;
+    align-items: center;
+}
 nav ul li {
     margin: 1rem;
     color: gray;
@@ -451,6 +454,10 @@ footer .item .social-links img {
 }
 
 @media (max-width:700px) {
+    nav ul .links{
+        display: none;
+        /* align-items: center; */
+    }
 
     /* 
 **************************************
